@@ -25,7 +25,7 @@ async function start() {
         log: `Connection ${status}`,
       })
     );
-    sendedMail = true;
+    sendedMail = false;
   }
 
   // Envia e-mail com o problema encontrado
