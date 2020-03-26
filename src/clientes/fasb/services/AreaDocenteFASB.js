@@ -1,4 +1,4 @@
-import '../../../utils/dotenv';
+// import '../../../utils/dotenv';
 
 import AreaDocenteMonitor from '../../../services/ServiceMonitor';
 import Mail from '../../../lib/Mail';
