@@ -16,8 +16,8 @@
     "eslint:fix": "eslint --fix src --ext .js",
     "build": "babel src -d dist",
     "encrypt": "sucrase-node src/utils/encrypt.js",
-    "monitor:clear-log": "rm -rf ~/.pm2",
-    "monitor:fasb-start": "node dist/clientes/fasb/index.js"
+    "monitor:clear-log-fasb": "rm -rf ~/.pm2/logs/fasb",
+    "monitor:start-fasb": "node dist/clientes/fasb/index.js"
   },
   "engineStrict": true,
   "engines": {
